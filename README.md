@@ -50,7 +50,7 @@ To deploy the project:
 
     grunt dist
     
-Grunt Boilerplate also let's you deploy specific files and folders.  These commands come in handy if you need to make a quick update without pushing the entire project. They include:
+Grunt Boilerplate also let's you deploy a subset of files and folders.  These commands come in handy if you need to make a quick update without pushing the entire project. They include:
 
     grunt dist_base
     grunt dist_img
