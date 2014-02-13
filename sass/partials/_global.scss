@@ -1,0 +1,16 @@
+body {
+	background : #fefefe;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 62.5%;
+}
+
+//Susy Base Module Style
+.mod{
+	width: 100%;
+}
+
+.mod__inner{
+	@include container;
+	@include susy-grid-background;
+	position: relative;
+}

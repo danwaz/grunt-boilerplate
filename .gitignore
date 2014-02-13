@@ -1,0 +1,21 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+# OS Generated Files
+.DS_Store
+
+# Cache
+.sass-cache/*
+
+# Logs
+logs/
+
+# Vendor folders
+node_modules/*
+
+# Build Files
+build/*
+js/app.min.js
+
+# Security -- never commit these to version control!!!
+secret.json
